@@ -5,9 +5,16 @@
   "type": "module",
   "description": "Build and deploy an ISAPI talkback patch for the Scrypted Hikvision doorbell plugin.",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuio/scrypted-hikvision-doorbell-isapi-talkback.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xuio/scrypted-hikvision-doorbell-isapi-talkback/issues"
+  },
+  "homepage": "https://github.com/xuio/scrypted-hikvision-doorbell-isapi-talkback#readme",
   "scripts": {
     "build": "./scripts/build.sh",
     "verify": "node scripts/verify-bundle.mjs dist/hikvision-doorbell-isapi-talkback-plugin.zip"
   }
 }
-
